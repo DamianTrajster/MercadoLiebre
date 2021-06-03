@@ -12,4 +12,4 @@ app.get('/', (req, res)=> res.sendFile(path.join(__dirname,'./views','home.html'
 
 
 //ESCUCHAR EL SERVIDOR
-app.listen (port, ()=> console.log(`Servidor corriendo de manera satisfactoria: `+ port ));
+app.listen(port, () => console.log('servidor corriendo en el puerto ' + port));

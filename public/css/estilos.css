@@ -76,11 +76,24 @@ header div .compra-cuotas {
 
 }
 
+.bottom-header nav li {
+    list-style: none;
+}
 
-header div nav {
+
+.bottom-header nav li a {
+    text-decoration: none;
+   
+}
+
+
+
+header div nav  {
     max-width: 800px;
   
 }
+
+
 
 header .burger-menu {
     width: 40px;
