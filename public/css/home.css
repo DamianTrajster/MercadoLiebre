@@ -1,0 +1,184 @@
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--color-amarillo);
+    padding: 10px;
+}
+
+header div.top-header{
+    max-width: 1200px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+   
+
+
+header div div {
+    width: 50%;
+    text-align: center;
+}
+
+header .logo {
+    padding: 5px;
+}
+
+header div form {
+    width: 50%;  
+}
+
+/* Search y lupa */
+
+header div form .search{
+    margin-left: .5rem;
+    width: 70%;
+}
+
+
+header div .compra-cuotas {
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.lupa {
+    background-color: var(--color-blanco) ;
+    padding: 5px;
+    border: solid 1px var(--color-negro);
+    margin-top: 2px;
+    border-radius: 3px;
+}
+
+
+header div .nav-right{
+
+  margin: .5rem 0;
+}
+.bottom-header {
+    display: flex;
+   flex-direction: column;
+ 
+
+}
+
+.bottom-header nav li {
+    list-style: none;
+}
+
+
+.bottom-header nav  li a {
+    text-decoration: none;
+   
+}
+
+
+
+header div nav  {
+    max-width: 800px;
+  
+}
+
+
+
+header .burger-menu {
+    width: 40px;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: var(--color-celeste);
+    color: var(--color-blanco);
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+}
+
+
+
+/* Ofertas, Tiendas */
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+section img {
+    width: 100%;
+}
+
+main .precios { 
+    width: 50%; 
+}
+
+main .descuentos {
+    width: 70%;
+}
+
+main .precios,
+main .descuentos {
+    align-content: baseline;
+}
+
+p.precios,
+h3.descripcion {
+    font-size: 1.4rem; /* 18px */
+    color: var(--colorGris-oscuro);
+}
+
+p.descuentos{
+    font-size: 1rem; /* 16px */
+}
+
+main section div article {
+    margin: 10px 0;
+    background-color: var(--color-blanco);
+}
+
+main article div {
+    border-top: solid 1px var( --colorGris-claro);
+    margin: 10px 20px;
+    padding: 10px;
+    
+}
+
+.descuentos {
+    color: var(--color-verde);
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--color-blanco);
+    text-align: center;
+    padding: 10px;
+}
+
+footer div i,
+footer div h3,
+footer div p{
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer .imgs-footer {
+    font-size: 2em;
+    margin: 40px 0 20px 0;
+    color: var(--color-celeste);
+}
+
+footer div i:hover.imgs-footer {
+    color: var(--color-azul);
+}
+
+footer .rights {
+display: inline-block;
+ align-items: center;
+ margin-top: 1rem;
+}
+
+
+

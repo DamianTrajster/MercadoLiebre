@@ -1,0 +1,31 @@
+:root {
+    --color-amarillo: #EAC926;
+    --color-azul: #03264C;
+    --color-celeste: #1259c3;
+    --colorGris-oscuro: #666;
+    --colorGris-claro: #ebebeb;
+    --color-verde: #39b54a;
+    --color-blanco:#fff;
+    --color-negro:#000;
+
+    --fuente: 'Roboto', sans-serif;
+
+}
+
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: var(--colorGris-claro);
+    font-family: var(--fuente);
+  
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--color-negro);
+}
